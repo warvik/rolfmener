@@ -1,0 +1,116 @@
+/* line 3, ../compass/sass/layout.scss */
+.branding {
+  margin: 30px 0;
+  text-align: center;
+  line-height: 3.5em;
+}
+/* line 8, ../compass/sass/layout.scss */
+.branding h1 {
+  font-weight: normal;
+  font-size: 4em;
+  margin: 0;
+}
+/* line 13, ../compass/sass/layout.scss */
+.branding h1 a {
+  text-decoration: none;
+}
+/* line 18, ../compass/sass/layout.scss */
+.branding h3 {
+  font-weight: normal;
+  font-size: 3em;
+  margin: 0;
+}
+
+/*
+	==> Sticky table
+*/
+/* line 30, ../compass/sass/layout.scss */
+table.sticky-table {
+  width: 100%;
+}
+/* line 33, ../compass/sass/layout.scss */
+table.sticky-table td, table.sticky-table th {
+  padding: 10px;
+}
+
+/*
+	==> Block styles
+*/
+/* line 43, ../compass/sass/layout.scss */
+.block h2 {
+  font-weight: normal;
+  font-size: 1.3em;
+  border-bottom: solid 1px #ccc;
+}
+/* line 50, ../compass/sass/layout.scss */
+.block .node.node-teaser h2, .block .node.node-teaser.node-blog h2 {
+  border: none;
+  margin: 0;
+}
+/* line 55, ../compass/sass/layout.scss */
+.block .node.node-teaser .submitted, .block .node.node-teaser.node-blog .submitted {
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+/* line 64, ../compass/sass/layout.scss */
+.block .node.node-teaser.node-blog h2, .block .node-blog.node.node-teaser h2 {
+  font-size: 2em;
+}
+/* line 67, ../compass/sass/layout.scss */
+.block .node.node-teaser.node-blog h2 a, .block .node-blog.node.node-teaser h2 a {
+  text-decoration: none;
+  color: darkred;
+}
+
+/* line 78, ../compass/sass/layout.scss */
+.block.latest-poll .content .node h2 {
+  border: none;
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+/* line 83, ../compass/sass/layout.scss */
+.block.latest-poll .content .node h2 a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 88, ../compass/sass/layout.scss */
+.block.latest-poll .content .node .submitted {
+  display: none;
+}
+/* line 95, ../compass/sass/layout.scss */
+.block.latest-poll .content form .poll .vote-form {
+  text-align: left;
+}
+/* line 98, ../compass/sass/layout.scss */
+.block.latest-poll .content form .poll .vote-form .choices {
+  margin: 0;
+}
+
+/*
+	==> Views styles
+*/
+/* line 113, ../compass/sass/layout.scss */
+.view.view-event-registrations table {
+  width: 100%;
+}
+/* line 117, ../compass/sass/layout.scss */
+.view.view-event-registrations table tr td {
+  padding: 5px;
+}
+/* line 125, ../compass/sass/layout.scss */
+.view.view-event-registrations table thead tr th {
+  text-transform: uppercase;
+  font-weight: normal;
+  border-bottom: solid 1px #000;
+  border-top: solid 2px #000;
+  padding: 5px;
+}
+/* line 136, ../compass/sass/layout.scss */
+.view.view-event-registrations table tbody tr.odd td {
+  background-color: #fff;
+}
+/* line 140, ../compass/sass/layout.scss */
+.view.view-event-registrations table tbody tr.even td {
+  background-color: #f7f7f7;
+}

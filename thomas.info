@@ -1,0 +1,22 @@
+name = Thomas Theme
+description = Theme for secret Thomas theme
+core = 7.x
+engine = phptemplate
+base theme = ninesixty
+
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = styles/framework/debug.css
+
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer]         = Footer
+
+regions[row_1_col_1]		= Row 1 Col 1
+regions[row_1_col_2]		= Row 1 Col 2
+regions[row_1_col_3]		= Row 1 Col 3
+
+regions[row_2_col_1]		= Row 2 Col 1
+regions[row_2_col_2]		= Row 2 Col 2
+regions[row_2_col_3]		= Row 2 Col 3
